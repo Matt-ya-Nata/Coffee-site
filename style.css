@@ -62,3 +62,18 @@ header{
     transition: 0.2s all linear;
 
 }
+
+.header-icon {
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    column-gap: 0.8rem;
+
+}
+.header-icon .bx {
+    color: var(--bg-color);
+}
+.header-icon .bx:hover {
+    color: var(--main-color);
+}
