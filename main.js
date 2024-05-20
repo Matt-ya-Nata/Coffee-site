@@ -13,7 +13,7 @@ window.addEventListener('scroll', () => {
 var formdata = new FormData();
 formdata.append("type", "Thick Horizontal");
 formdata.append("tags", "coffee");
-formdata.append("tags", "Cappuccino,Espresso");
+formdata.append("tags", "Cappuccino,Espresso,Doppio,Irish,Latte");
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);
