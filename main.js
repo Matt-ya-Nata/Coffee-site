@@ -12,7 +12,6 @@ window.addEventListener('scroll', () => {
 });
 var formdata = new FormData();
 formdata.append("type", "Thick Horizontal");
-formdata.append("tags", "coffee");
 formdata.append("tags", "Cappuccino,Espresso,Doppio,Irish,Latte");
 
 var ajax = new XMLHttpRequest();
