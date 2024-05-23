@@ -16,7 +16,7 @@ formdata1.append("tags", "Cappuccino,Espresso, Doppio,Irish,Latte");
 
 var formdata2 = new FormData();
 formdata2.append("type", "Horizontal Strip");
-formdata2.append("tags","Nescafe");
+formdata2.append("tags","Nescafe,Frisco,Jacobs,Ricoffy,Douwe");
 
 var ajax1 = new XMLHttpRequest();
     ajax1.addEventListener("load", completeHandler1, false);
